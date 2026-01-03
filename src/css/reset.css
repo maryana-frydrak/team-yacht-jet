@@ -1,3 +1,9 @@
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
 h1,
 h2,
 h3,
@@ -8,14 +14,21 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
+ul,
+ol {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -31,4 +44,59 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.main-image {
+  background-image: url(../images/yacht-rentals-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+  .main-image {
+    background-image: url(../images/yacht-rentals-mobile@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-image {
+    background-image: url(../images/yacht-rentals-tablet.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .main-image {
+    background-image: url(../images/yacht-rentals-tablet@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .main-image {
+    background-image: url(../images/yacht-rentals-desktop12.jpg);
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .main-image {
+    background-image: url(../images/yacht-rentals-desktop12@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-image {
+    background-image: url(../images/yacht-rentals.jpg);
+  }
+}
+
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+  .main-image {
+    background-image: url(../images/yacht-rentals-desktop14@2x.jpg);
+  }
 }

@@ -1,0 +1,154 @@
+.second-section {
+    position: relative;
+    margin: 0 auto;
+    width: 335px;
+}
+
+.second-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+    height: 675px;
+    padding: 40px 20px 0 20px;
+
+    border-radius: 24px;
+    background: #fbfbfb;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 28px;
+    /* line-height: 28px; */
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+}
+
+.second-section-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-by-text {
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 18px; */
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+}
+
+.second-section-paragraph {
+    font-weight: 400;
+    font-size: 12px;
+    /* line-height: 15px; */
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.img-second-section-container {
+    position: absolute;
+    top: 380px;
+}
+
+.img-second-section {
+    border-radius: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .second-section {
+        width: 704px;
+    }
+
+    .second-section-container {
+        gap: 50px;
+        padding-top: 50px;
+        padding-left: 32px;
+    }
+
+    .text {
+        font-size: 48px;
+        width: 536px;
+    }
+
+    .text-by-text {
+        font-size: 23px;
+        width: 389px;
+    }
+
+    .second-section-paragraph {
+        font-size: 13px;
+        line-height: 1.15;
+        width: 385px;
+    }
+
+    .img-second-section-container {
+        top: 481px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .second-section {
+        width: 1180px;
+    }
+
+    .second-section-container {
+        flex-wrap: nowrap;
+        flex-direction: unset;
+        gap: 189px;
+        padding: 50px 50px 0 50px;
+    }
+
+    .second-section-block-container {
+        width: 537px;
+        height: 144px;
+    }
+
+    .second-section-text-container {
+        width: 354px;
+        height: 210px;
+    }
+
+    .text-by-text {
+        width: 354px;
+    }
+
+    .second-section-paragraph {
+        width: 354px;
+    }
+
+    .img-second-section-container {
+        top: 360px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .second-section {
+        width: 1340px;
+    }
+
+    .second-section-container {
+        gap: 299px;
+    }
+
+    .second-section-text-container {
+        width: 404px;
+        height: 187px;
+    }
+
+    .text-by-text {
+        width: 404px;
+    }
+
+    .second-section-paragraph {
+        width: 404px;
+    }
+
+    .img-second-section-container {
+        top: 337px;
+    }
+}

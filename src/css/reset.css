@@ -47,7 +47,7 @@ img {
 }
 
 .main-image {
-  background-image: url(../images/yacht-rentals-mobile.jpg);
+  background-image: url(../img/yacht-rentals-mobile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -61,7 +61,7 @@ img {
 
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
   .main-image {
-    background-image: url(../images/yacht-rentals-mobile@2x.jpg);
+    background-image: url(../img/yacht-rentals-mobile@2x.jpg);
   }
 }
 

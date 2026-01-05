@@ -1,0 +1,30 @@
+<section class="fifth-section">
+    <div class="fifth-section-container">
+        <picture>
+            <source srcset="./images/rent-a-yacht.jpg 1x, ./images/rent-a-yacht-desktop14@2x.jpg 2x" media="(min-width: 1440px)"/>
+            <source srcset="./images/rent-a-yacht-desktop12.jpg 1x, ./images/rent-a-yacht-desktop12@2x.jpg 2x" media="(min-width: 1280px)"/>
+            <source srcset="./images/rent-a-yacht-tablet.jpg 1x, ./images/rent-a-yacht-tablet@2x.jpg 2x" media="(min-width: 768px)"/>
+            <source srcset="./images/rent-a-yacht-mobile.jpg 1x, ./images/rent-a-yacht-mobile@2x.jpg 2x" media="(max-width: 767px)"/>
+            <img class="img-fifth-section"
+                src="./images/rent-a-yacht.jpg"
+                alt="rent-a-yacht"
+                width="768"
+                />
+        </picture>
+            <div class="form-container" id="form">
+                <h2 class="text fifth-section-text">Rent a yacht now</h2>
+                <form class="fifth-section-form">
+                    <label class="fifth-section-label" for="user-name" ></label>
+                      <input class="fifth-section-input" id="user-name" name="user-name" type="text" placeholder="Full Name"/>
+                    <label class="fifth-section-label" for="user-email"></label>
+                      <input class="fifth-section-input" id="user-email" name="user-email" type="email" placeholder="Email" />
+                    <label class="fifth-section-label" for="user-tel"></label>
+                      <input class="fifth-section-input" id="user-tel" name="user-tel" type="tel" placeholder="Phone number" />
+                    <label class="fifth-section-label" for="user-comment"></label>
+                      <textarea class="fifth-section-textarea" id="user-comment" name="user-comment" placeholder="Comment"></textarea>
+                    <button class="fifth-section-form-btn" type="submit">Send</button>
+                </form>
+            </div>
+    </div>
+   
+</section>
